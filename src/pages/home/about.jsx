@@ -1,9 +1,7 @@
-import Container from "../../components/container"
+import Container from "../../components/container";
 
 function About() {
-  return (
-    <Container>About</Container>
-  )
+  return <Container className="mb-24">About</Container>;
 }
 
-export default About
+export default About;

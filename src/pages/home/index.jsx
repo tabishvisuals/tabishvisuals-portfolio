@@ -1,4 +1,5 @@
 import About from "./about";
+import ContactForm from "./contact-form";
 import Header from "./header";
 import WorkSection from "./work-section";
 
@@ -8,6 +9,7 @@ function Home() {
       <Header />
       <WorkSection />
       <About />
+      <ContactForm />
     </>
   );
 }

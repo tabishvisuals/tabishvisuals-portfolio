@@ -6,10 +6,10 @@ import caseStudy2 from "../../assets/caseStudy2.png";
 const PROJECTS = [
   {
     title: "Doctor App Case study",
-    description: `The healer app is a mobile app for doctors and doctor&apos;s assistant
-  it&apos;s going to make it easier for their life to provide some great
+    description: `The healer app is a mobile app for doctors and doctor's assistant
+  it's going to make it easier for their life to provide some great
   features that make help in making appointments and keep remembering
-  old records and save time. It&apos;s going to heal their lives.`,
+  old records and save time. It's going to heal their lives.`,
     points: ["Problem solving", "Design Thinking", "User interface design"],
     link: "https://www.behance.net/gallery/154166107/Doctor-App-UXUI-Case-Study",
     thumbnail: caseStudy1,
