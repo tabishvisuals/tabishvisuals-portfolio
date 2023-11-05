@@ -26,7 +26,7 @@ const PROJECTS = [
 
 function WorkSection() {
   return (
-    <Container className="mt-[5.75rem] mb-24">
+    <Container id="work" className="mt-[5.75rem] mb-24">
       <h2 className="font-grotesque text-[2.75rem] font-bold leading-[3.575rem] text-secondary mb-16">
         Selected Works
       </h2>

@@ -1,8 +1,9 @@
 import Container from "../../components/container";
+import Tabish from "../../assets/tabish.png";
 
 function About() {
   return (
-    <Container className="mb-24">
+    <Container id="about" className="mb-24">
       <div className="w-full flex">
         <div className="max-w-[32.1875rem]">
           <h2 className="font-grotesque text-[2.75rem] font-bold leading-[3.575rem] text-secondary mb-4">
@@ -23,7 +24,9 @@ function About() {
             art of creating seamless digital experiences.
           </p>
         </div>
-        <div className="flex-1">image will come here</div>
+        <div className="flex-1 flex justify-end">
+          <img src={Tabish} alt="tabish profile pic" className="h-[42rem]" />
+        </div>
       </div>
     </Container>
   );

@@ -1,5 +1,6 @@
 import Container from "../../components/container";
 import logo from "../../assets/logo.svg";
+import resume from "../../assets/resume.pdf";
 
 function Navbar() {
   return (
@@ -13,19 +14,20 @@ function Navbar() {
           <div className="flex items-center gap-8">
             <a
               className="font-grotesque text-2xl font-normal leading-9 text-secondary"
-              href=""
+              href="#about"
             >
               About
             </a>
             <a
               className="font-grotesque text-2xl font-normal leading-9 text-secondary"
-              href=""
+              href="#work"
             >
               Work
             </a>
             <a
               className="font-grotesque text-2xl font-normal leading-9 text-secondary underline"
-              href=""
+              href={resume}
+              download
             >
               Resume
             </a>

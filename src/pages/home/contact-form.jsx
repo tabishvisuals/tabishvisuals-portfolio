@@ -6,7 +6,7 @@ import Linkedin from "../../assets/linkedin.png";
 
 function ContactForm() {
   return (
-    <Container className="mb-8">
+    <Container id="contact-form" className="mb-8">
       <div className="w-full bg-primary h-[37.5rem] rounded-[32px] border border-[#97D9FE] shadow-[0px_4px_25px_12px_rgba(109,51,232,0.08)] flex p-[72px]">
         <div className="flex-1 h-full flex items-start flex-col">
           <div>
