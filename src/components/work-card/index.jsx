@@ -9,8 +9,10 @@ function WorkCard(props) {
         <h2 className="text-secondary font-normal font-grotesque text-[2.75rem] leading-[3.5rem] mb-2">
           {title}
         </h2>
-        <p className="font-inter text-lg mb-[1.125rem]">{description}</p>
-        <ul className="font-inter text-lg capitalize flex gap-2 flex-col list-inside list-disc mb-8">
+        <p className="font-inter text-lg mb-[1.125rem] text-[#3A3D40]">
+          {description}
+        </p>
+        <ul className="font-inter text-lg capitalize flex gap-2 flex-col list-inside list-disc mb-8 text-[#3A3D40]">
           {points.map((p, i) => (
             <li key={p + i}>{p}</li>
           ))}
