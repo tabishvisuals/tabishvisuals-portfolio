@@ -28,9 +28,39 @@ function ContactForm() {
         </div>
         <div className="flex-1 flex justify-end">
           <div className="w-[21.5rem]">
-            <h2 className="font-grotesque text-[#fff] text-[2.75rem] font-bold leading-[4.125rem] mb-4">
+            <h2 className="font-grotesque text-[#fff] text-[2.75rem] font-bold leading-[4.125rem] mb-8">
               Get in touch
             </h2>
+
+            <form
+              action=""
+              onSubmit={(e) => e.preventDefault()}
+              className="flex flex-col gap-4"
+            >
+              <input
+                name="name"
+                placeholder="Name"
+                className="py-3.5 px-4 w-full rounded-lg outline-none placeholder:text-[#322F35] placeholder:font-inter"
+              />
+              <input
+                name="email"
+                placeholder="Email"
+                className="py-3.5 px-4 w-full rounded-lg outline-none placeholder:text-[#322F35] placeholder:font-inter"
+              />
+              <textarea
+                name="message"
+                placeholder="Message"
+                rows={4}
+                className="py-3.5 px-4 w-full rounded-lg outline-none placeholder:text-[#322F35] placeholder:font-inter"
+              />
+
+              <button
+                type="submit"
+                className="w-full h-14 mt-4 rounded-2xl bg-secondary text-[#fff] text-2xl leading-[3rem] font-medium font-inter border-4 border-[#000] box-border"
+              >
+                Contact Me
+              </button>
+            </form>
           </div>
         </div>
       </div>

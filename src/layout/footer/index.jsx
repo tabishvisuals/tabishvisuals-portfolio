@@ -3,7 +3,7 @@ import Container from "../../components/container";
 function Footer() {
   return (
     <footer>
-      <Container>
+      <Container className="mb-8">
         <p className="font-inter text-lg text-secondary text-center">
           Copyrights resivered by @tabishviusals
         </p>
