@@ -1,6 +1,5 @@
 import Container from "../../components/container";
 import logo from "../../assets/logo.svg";
-import resume from "../../assets/resume.pdf";
 
 function Navbar() {
   return (
@@ -8,28 +7,21 @@ function Navbar() {
       <Container>
         <div className="w-full flex justify-between items-center py-[26px]">
           <div>
-            <img src={logo} className="h-12" />
+            <img src={logo} className="lg:h-12 h-10" />
           </div>
 
           <div className="flex items-center gap-8">
             <a
-              className="font-grotesque text-2xl font-normal leading-9 text-secondary"
+              className="font-grotesque lg:text-2xl font-normal leading-9 text-secondary text-lg"
               href="#about"
             >
               About
             </a>
             <a
-              className="font-grotesque text-2xl font-normal leading-9 text-secondary"
+              className="font-grotesque lg:text-2xl font-normal leading-9 text-secondary text-lg"
               href="#work"
             >
               Work
-            </a>
-            <a
-              className="font-grotesque text-2xl font-normal leading-9 text-secondary underline"
-              href={resume}
-              download
-            >
-              Resume
             </a>
           </div>
         </div>

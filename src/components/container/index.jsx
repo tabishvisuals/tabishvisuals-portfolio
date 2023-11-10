@@ -5,7 +5,7 @@ function Container(props) {
   return (
     <div
       className={twMerge(
-        "max-w-[1265.6px] w-full my-0 mx-auto px-1",
+        "max-w-[1265.6px] w-full my-0 mx-auto px-4 xl:px-0",
         className
       )}
       {...restProps}

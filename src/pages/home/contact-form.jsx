@@ -38,16 +38,20 @@ function ContactForm() {
               className="flex flex-col gap-4"
             >
               <input
+                required
                 name="name"
                 placeholder="Name"
                 className="py-3.5 px-4 w-full rounded-lg outline-none placeholder:text-[#322F35] placeholder:font-inter"
               />
               <input
+                required
                 name="email"
+                type="email"
                 placeholder="Email"
                 className="py-3.5 px-4 w-full rounded-lg outline-none placeholder:text-[#322F35] placeholder:font-inter"
               />
               <textarea
+                required
                 name="message"
                 placeholder="Message"
                 rows={4}
