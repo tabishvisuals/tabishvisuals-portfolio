@@ -22,7 +22,7 @@ function WorkCard(props) {
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="font-grotesque text-[#279EFF] border-b-[2px] text-2xl lg:text-[2rem] leading-[2.625rem] font-bold"
+          className="font-grotesque text-[#279EFF] border-b-[2px] text-2xl lg:text-[2rem] lg:leading-[2.625rem] font-bold"
         >
           Read more
         </a>
