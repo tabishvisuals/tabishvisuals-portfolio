@@ -12,7 +12,7 @@ function WorkCard(props) {
         <p className="font-inter text-base lg:text-lg mb-[1.125rem] text-[#3A3D40]">
           {description}
         </p>
-        <ul className="font-inter text-base lg:text-lg capitalize flex gap-2 flex-col list-inside list-disc mb-8 text-[#3A3D40]">
+        <ul className="font-inter text-base lg:text-lg capitalize flex gap-2 flex-col list-inside list-disc mb-4 lg:mb-8 text-[#3A3D40]">
           {points.map((p, i) => (
             <li key={p + i}>{p}</li>
           ))}

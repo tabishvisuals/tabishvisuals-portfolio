@@ -7,28 +7,40 @@ import Linkedin from "../../assets/linkedin.png";
 function ContactForm() {
   return (
     <Container id="contact-form" className="mb-8">
-      <div className="w-full bg-primary h-[37.5rem] rounded-[32px] border border-[#97D9FE] shadow-[0px_4px_25px_12px_rgba(109,51,232,0.08)] flex p-[72px]">
-        <div className="flex-1 h-full flex items-start flex-col">
+      <div className="w-full bg-primary flex-col lg:flex-row lg:h-[37.5rem] rounded-[32px] border border-[#97D9FE] shadow-[0px_4px_25px_12px_rgba(109,51,232,0.08)] flex p-8 lg:p-[72px] gap-10 lg:gap-0">
+        <div className="flex-1 lg:h-full flex items-start flex-col gap-4 lg:gap-0">
           <div>
-            <h2 className="font-grotesque text-[#fff] text-[2.75rem] font-bold leading-[4.125rem] mb-4">
+            <h2 className="font-grotesque text-[#fff] lg:text-[2.75rem] md:text-4xl text-3xl font-bold lg:leading-[4.125rem] mb-4">
               Let&apos;s Collaborate
             </h2>
-            <p className="font-inter text-[#fff] font-normal text-lg max-w-[26.875rem]">
+            <p className="font-inter text-[#fff] font-normal text-base lg:text-lg max-w-[26.875rem]">
               Thank you for visiting my portfolio. I&apos;m excited about the
               future possibilities, and I look forward to connecting with you!
             </p>
           </div>
 
-          <div className="flex items-center justify-center gap-16 mt-auto">
-            <img src={Instagram} className="w-16 h-16 cursor-pointer" />
-            <img src={Linkedin} className="w-16 h-16 cursor-pointer" />
-            <img src={Behance} className="w-16 h-16 cursor-pointer" />
-            <img src={Gmail} className="w-16 h-16 cursor-pointer" />
+          <div className="flex items-center justify-center gap-8 lg:gap-16 mt-auto">
+            <img
+              src={Instagram}
+              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
+            />
+            <img
+              src={Linkedin}
+              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
+            />
+            <img
+              src={Behance}
+              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
+            />
+            <img
+              src={Gmail}
+              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
+            />
           </div>
         </div>
-        <div className="flex-1 flex justify-end">
+        <div className="flex-1 flex justify-start lg:justify-end">
           <div className="w-[21.5rem]">
-            <h2 className="font-grotesque text-[#fff] text-[2.75rem] font-bold leading-[4.125rem] mb-8">
+            <h2 className="font-grotesque text-[#fff] lg:text-[2.75rem] md:text-4xl text-3xl font-bold lg:leading-[4.125rem] mb-8">
               Get in touch
             </h2>
 
@@ -60,7 +72,7 @@ function ContactForm() {
 
               <button
                 type="submit"
-                className="w-full h-14 mt-4 rounded-2xl bg-secondary text-[#fff] text-2xl leading-[3rem] font-medium font-inter border-4 border-[#000] box-border"
+                className="w-full h-12 lg:first-letter:h-14 mt-2 lg:mt-4 rounded-2xl bg-secondary text-[#fff] text-xl lg:text-2xl lg:leading-[3rem] font-medium font-inter border-4 border-[#000] box-border"
               >
                 Contact Me
               </button>

@@ -4,7 +4,7 @@ function Footer() {
   return (
     <footer>
       <Container className="mb-8">
-        <p className="font-inter text-lg text-secondary text-center">
+        <p className="font-inter text-base md:text-lg text-secondary text-center">
           Copyrights resivered by @tabishviusals
         </p>
       </Container>
