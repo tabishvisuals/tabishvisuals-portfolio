@@ -1,10 +1,17 @@
 import Container from "../../components/container";
 import Behance from "../../assets/behance.png";
-import Gmail from "../../assets/gmail.png";
 import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedin.png";
 
+const INSTAGRAM = "https://instagram.com/tabishvisuals?igshid=MzMyNGUyNmU2YQ==";
+const BEHANCE = "https://www.behance.net/khantabish";
+const LINKEDIN = "https://instagram.com/tabishvisuals?igshid=MzMyNGUyNmU2YQ==";
+
 function ContactForm() {
+  const socialMediaHandler = (url) => {
+    window.open(url, "_blank");
+  };
+
   return (
     <Container id="contact-form" className="mb-8">
       <div className="w-full bg-primary flex-col lg:flex-row lg:h-[37.5rem] rounded-[32px] border border-[#97D9FE] shadow-[0px_4px_25px_12px_rgba(109,51,232,0.08)] flex p-8 lg:p-[72px] gap-10 lg:gap-0">
@@ -22,18 +29,17 @@ function ContactForm() {
           <div className="flex items-center justify-center gap-8 lg:gap-16 mt-auto">
             <img
               src={Instagram}
+              onClick={() => socialMediaHandler(INSTAGRAM)}
               className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
             />
             <img
               src={Linkedin}
+              onClick={() => socialMediaHandler(LINKEDIN)}
               className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
             />
             <img
               src={Behance}
-              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
-            />
-            <img
-              src={Gmail}
+              onClick={() => socialMediaHandler(BEHANCE)}
               className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
             />
           </div>
@@ -72,7 +78,7 @@ function ContactForm() {
 
               <button
                 type="submit"
-                className="w-full h-12 lg:first-letter:h-14 mt-2 lg:mt-4 rounded-2xl bg-secondary text-[#fff] text-xl lg:text-2xl lg:leading-[3rem] font-medium font-inter border-4 border-[#000] box-border"
+                className="w-full h-12 lg:h-14 mt-2 lg:mt-4 rounded-2xl bg-secondary text-[#fff] text-xl lg:text-2xl lg:leading-[3rem] font-medium font-inter border-4 border-[#000] box-border"
               >
                 Contact Me
               </button>
