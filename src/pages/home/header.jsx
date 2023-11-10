@@ -11,7 +11,7 @@ function Header() {
     <>
       <Container className="h-[calc(100vh-100px)] flex items-center justify-center">
         <div className="max-w-[53.75rem] flex items-center flex-col">
-          <h1 className="lg:text-[2.75rem] md:text-4xl sm:text-3xl text-2xl text-secondary font-medium lg:leading-[2.75rem] font-grotesque text-center">
+          <h1 className="lg:text-[2.75rem] md:text-4xl text-3xl text-secondary font-medium lg:leading-[2.75rem] font-grotesque text-center">
             Hello,👋 <br /> I&apos;m{" "}
             <span className="text-primary font-bold">Tabish</span> -{" "}
             <span className="text-secondary font-bold">UI/UX Designer.</span>
