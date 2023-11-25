@@ -23,6 +23,12 @@ function Navbar() {
             >
               Work
             </a>
+            <a
+              className="font-grotesque lg:text-2xl font-normal leading-9 text-secondary text-lg"
+              href="#contact-form"
+            >
+              Contact
+            </a>
           </div>
         </div>
       </Container>

@@ -5,20 +5,14 @@ import caseStudy2 from "../../assets/caseStudy2.png";
 
 const PROJECTS = [
   {
-    title: "Doctor App Case study",
-    description: `The healer app is a mobile app for doctors and doctor's assistant
-  it's going to make it easier for their life to provide some great
-  features that make help in making appointments and keep remembering
-  old records and save time. It's going to heal their lives.`,
-    points: ["Problem solving", "Design Thinking", "User interface design"],
+    title: "A Deep Dive into My Doctor App Case Study",
+    description: `Explore the transformative journey of the Healer App, a dedicated mobile solution for doctors and their assistants. Redefining efficiency in healthcare, it seamlessly streamlines appointment scheduling, record-keeping, and time management. Dive into our problem-solving approach, guided by robust design thinking principles, culminating in an intuitive and user-centric interface design. Witness how Healer isn't just an app; it's a remedy for simplifying and enhancing the lives of healthcare professionals.`,
     link: "https://www.behance.net/gallery/154166107/Doctor-App-UXUI-Case-Study",
     thumbnail: caseStudy1,
   },
   {
-    title: "My Islah app",
-    description: `The project is a collaboration between two individuals, me and a developer. He wanted me to do the design for his application. And After getting his basic requirements,
-  I began working together`,
-    points: ["Problem solving", "Design Thinking", "User interface design"],
+    title: "Navigating the Islah App Design Collaboration",
+    description: `Dive into the collaborative journey behind the Islah App – a joint venture between a developer and me. Given the developer's vision, I embarked on a design odyssey, unraveling challenges through problem-solving, guided by design thinking principles. Explore the meticulous process of curating an intuitive user interface that brings the vision to life. Witness how teamwork and design expertise converge to shape the Islah App into a seamless and user-centric experience`,
     link: "https://www.behance.net/gallery/160487351/The-Quran-Project-UIUX-case-study",
     thumbnail: caseStudy2,
   },

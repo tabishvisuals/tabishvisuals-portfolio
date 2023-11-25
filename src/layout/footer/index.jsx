@@ -5,7 +5,7 @@ function Footer() {
     <footer>
       <Container className="mb-8">
         <p className="font-inter text-base md:text-lg text-secondary text-center">
-          Copyrights resivered by @tabishviusals
+          Copyrights reserved by tabishvisuals.online
         </p>
       </Container>
     </footer>

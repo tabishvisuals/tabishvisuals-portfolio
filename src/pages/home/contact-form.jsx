@@ -6,7 +6,7 @@ import { useState } from "react";
 
 const INSTAGRAM = "https://instagram.com/tabishvisuals?igshid=MzMyNGUyNmU2YQ==";
 const BEHANCE = "https://www.behance.net/khantabish";
-const LINKEDIN = "https://instagram.com/tabishvisuals?igshid=MzMyNGUyNmU2YQ==";
+const LINKEDIN = "https://www.linkedin.com/in/tabishvisuals/";
 
 function ContactForm() {
   const [state, setState] = useState({

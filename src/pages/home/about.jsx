@@ -9,37 +9,38 @@ function About() {
           <h2 className="font-grotesque lg:text-[2.75rem] md:text-4xl text-3xl font-bold lg:leading-[3.575rem] text-secondary mb-2 md:mb-4">
             Who am I?
           </h2>
-          <h2 className="font-grotesque text-2xl lg:text-[2rem] font-bold lg:leading-[3.575rem] text-secondary mb-2 md:mb-4">
-            Tabish - UI/UX Designer 👋
+          <h2 className="font-grotesque text-2xl font-bold text-secondary mb-2">
+            👋 Tabish - UI/UX Designer
           </h2>
-          <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-2 md:mb-4">
-            Crafting Engaging User Experiences Through a Creative Lens
+          <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
+            Photography enthusiast turned UI/UX designer, I blend aesthetics and
+            technology. Proficient in Figma, I turn ideas into visually stunning
+            designs.
           </p>
-          <p className="font-inter text-base lg:text-lg text-[#3A3D40]">
-            Greetings! I&apos;m Tabish, a passionate UI/UX designer with a
-            creative flair and a strong background in photography and editing.
-            Over the past two years, I&apos;ve immersed myself in the
-            captivating world of UI/UX design under the guidance of industry
-            experts, honing my skills and gaining invaluable insights into the
-            art of creating seamless digital experiences.
-          </p>
-
-          <h2 className="font-grotesque text-2xl lg:text-[2rem] lg:leading-[3.575rem] text-secondary mb-2 md:mb-4">
-            My Journey and Expertise
+          <h2 className="font-grotesque text-2xl font-bold text-secondary mb-2">
+            💡 Problem-Solving Pro
           </h2>
-          <p className="font-inter text-base lg:text-lg text-[#3A3D40] mb-2 md:mb-4">
-            My journey in the realm of design started with my fascination for
-            photography and editing, where I developed a keen eye for aesthetics
-            and visual storytelling. This passion naturally led me to explore
-            the captivating world of user interface and user experience design,
-            where I discovered my true calling.
+          <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
+            I thrive on dissecting complex challenges, from delving into user
+            research to enhancing visual appeal. Every design is an opportunity
+            to make a lasting impact
           </p>
-          <p className="font-inter text-base lg:text-lg text-[#3A3D40] ">
-            Throughout my UI/UX learning journey, I&apos;ve embraced the latest
-            tools and technologies, and today, I&apos;m proficient in utilizing
-            Figma to bring my creative visions to life. Figma has become my
-            trusted canvas, allowing me to translate ideas into visually
-            stunning and user-friendly designs.
+          <h2 className="font-grotesque text-2xl font-bold text-secondary mb-2">
+            🌱 Experience & Growth
+          </h2>
+          <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
+            Web Team Lead at Osumare Leading Osumare&amps;s web team, I
+            orchestrate innovative design solutions, ensuring a seamless blend
+            of creativity and functionality in every project.
+          </p>
+          <h2 className="font-grotesque text-2xl font-bold text-secondary mb-2">
+            🌟 Vision
+          </h2>
+          <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
+            In this dynamic digital era, I&amps;m dedicated to creating
+            experiences that resonate, elevate brands, and evoke emotions.
+            Let&amps;s push design boundaries together for unparalleled user
+            experiences!
           </p>
         </div>
         <div className="flex-1 flex justify-start lg:justify-end">
