@@ -3,7 +3,7 @@ import logo from "../../assets/logo.svg";
 
 function Navbar() {
   return (
-    <nav>
+    <nav className="sticky top-0 bg-[rgba(255,255,255,0.25)] backdrop-blur-lg">
       <Container>
         <div className="w-full flex justify-between items-center py-[26px]">
           <div>
