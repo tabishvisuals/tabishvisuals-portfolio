@@ -9,7 +9,7 @@ function Header() {
 
   return (
     <>
-      <Container className="h-[calc(100vh-100px)] flex items-center justify-center flex-col">
+      <Container className="h-[calc(100vh-100px)] flex items-center justify-center flex-col" id="header">
         <div className="max-w-[53.75rem] flex items-center flex-col">
           <h1 className="lg:text-[2.75rem] md:text-4xl text-3xl text-secondary font-medium lg:leading-[2.75rem] font-grotesque text-center">
             Hello,👋 <br /> I&apos;m{" "}

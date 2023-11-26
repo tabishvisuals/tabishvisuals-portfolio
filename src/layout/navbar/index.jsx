@@ -6,8 +6,10 @@ function Navbar() {
     <nav className="sticky top-0 bg-[rgba(255,255,255,0.25)] backdrop-blur-lg">
       <Container>
         <div className="w-full flex justify-between items-center py-[26px]">
-          <div>
-            <img src={logo} className="lg:h-12 h-10" />
+          <div
+            onClick={() => document.getElementById("header").scrollIntoView()}
+          >
+            <img src={logo} className="lg:h-12 h-10 cursor-pointer" />
           </div>
 
           <div className="flex items-center gap-8">
