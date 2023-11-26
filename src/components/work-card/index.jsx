@@ -6,7 +6,7 @@ function WorkCard(props) {
         <img src={thumbnail} className="w-full h-full rounded-2xl" />
       </div>
       <div className="max-w-[39rem]">
-        <h2 className="text-secondary font-normal font-grotesque lg:text-[2.75rem] md:text-4xl text-3xl lg:leading-[3.5rem] mb-2">
+        <h2 className="text-secondary font-semibold font-grotesque lg:text-[2.75rem] md:text-4xl text-3xl lg:leading-[3.5rem] mb-2">
           {title}
         </h2>
         <p className="font-inter text-base lg:text-lg mb-[1.125rem] text-[#3A3D40]">
@@ -22,7 +22,7 @@ function WorkCard(props) {
           href={link}
           target="_blank"
           rel="noreferrer"
-          className="font-grotesque text-[#279EFF] border-b-[2px] text-lg font-bold"
+          className="font-grotesque text-[#279EFF] border-b-[2px] text-lg font-bold no-underline"
         >
           Read more
         </a>

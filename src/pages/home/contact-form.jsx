@@ -2,11 +2,13 @@ import Container from "../../components/container";
 import Behance from "../../assets/behance.png";
 import Instagram from "../../assets/instagram.png";
 import Linkedin from "../../assets/linkedin.png";
+import Gmail from "../../assets/gmail.png";
 import { useState } from "react";
 
 const INSTAGRAM = "https://instagram.com/tabishvisuals?igshid=MzMyNGUyNmU2YQ==";
 const BEHANCE = "https://www.behance.net/khantabish";
 const LINKEDIN = "https://www.linkedin.com/in/tabishvisuals/";
+const GMAIL = "https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=tabishvisuals@gmail.com";
 
 function ContactForm() {
   const [state, setState] = useState({
@@ -88,6 +90,11 @@ function ContactForm() {
             <img
               src={Behance}
               onClick={() => socialMediaHandler(BEHANCE)}
+              className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
+            />
+            <img
+              src={Gmail}
+              onClick={() => socialMediaHandler(GMAIL)}
               className="w-8 h-8 lg:w-16 lg:h-16 cursor-pointer"
             />
           </div>

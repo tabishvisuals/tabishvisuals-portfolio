@@ -29,7 +29,7 @@ function About() {
             🌱 Experience & Growth
           </h2>
           <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
-            Web Team Lead at Osumare Leading Osumare&amps;s web team, I
+            Web Team Lead at Osumare Leading Osumare&apos;s web team, I
             orchestrate innovative design solutions, ensuring a seamless blend
             of creativity and functionality in every project.
           </p>
@@ -37,9 +37,9 @@ function About() {
             🌟 Vision
           </h2>
           <p className="font-inter text-[#3A3D40] text-base lg:text-lg mb-4">
-            In this dynamic digital era, I&amps;m dedicated to creating
+            In this dynamic digital era, I&apos;m dedicated to creating
             experiences that resonate, elevate brands, and evoke emotions.
-            Let&amps;s push design boundaries together for unparalleled user
+            Let&apos;s push design boundaries together for unparalleled user
             experiences!
           </p>
         </div>
